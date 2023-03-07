@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("background.png");
+    background-size: cover;
+    background-attachment: fixed;
+}
+.nav_bar{
+    width: 100hw;
+    padding: 26px 85px;
+    height: 94px;
+    background-color:black;
+    padding-bottom: 3px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+nav ul{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 700px;
+    list-style: none;
+}
+nav ul li{
+    font-size: 16px;
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 15px;  
+    position: relative;   
+}
+nav ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: white ;
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    transition: 0.5s;
+}
+nav ul li:hover::after{
+    width: 100%;
+}
+nav ul li a{
+    text-transform: capitalize;
+    color: white;
+    size: 18px;
+    text-decoration: none;
+    font-weight: 500;
+}
+.nav_bar_img{
+    padding-right: 15px;
+    border-right: 1px solid white;
+}
+.hero{  
+    background-attachment: fixed;
+    text-align: center; 
+}
+.hero-heading{
+    max-width: 846px;
+    margin: 0 auto;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 98px;
+    text-align: center;
+    color: #ffffff;
+    padding-top: 172px;
+}
+.hero-description{
+    font-style: normal;
+    font-size: 30px;
+    line-height :45px; 
+    font-weight: 500;
+    color: white;
+}
+.button-large{
+    margin-top: 50px;
+    padding: 20px 40px; 
+    background-color: #3d37a5;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+.button-small{
+    margin: 10px;
+    padding: 10px 40px; 
+    background-color: #5955b3;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}

@@ -1,0 +1,367 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #ffffff;
+    background: #0f0f10;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+body{
+    margin: 0 15vw;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 30px;  
+}
+nav img{
+    height: 40px;
+    width: 40px;
+}
+nav ul{
+    display: flex;
+    gap: 80px;
+}
+nav u li{
+    margin-right: 40px;
+}
+nav ul li a{
+    font-weight: 700;
+    font-size: 20px;
+}
+.right_nav{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+nav button{
+    background-color: #1e1e21;
+    padding: 10px 18px;
+    border-radius: 8px;
+    font-size: 15px;
+}
+main{
+    display: flex;
+    align-items: flex-start;
+    margin-top: 30px;
+    position: relative;
+}
+.mainimg{
+    width: 230px;
+    position: relative;
+    top: -200px;
+    left: 200px;
+}
+.main{
+    margin-left: 450px;
+    padding: 20px;
+}
+main div h1{
+    font-size: 50px;
+}
+.onearimg{
+    padding-left: 150px;
+}
+main div h4{
+    font-size: 30px;
+    margin-top: 15px;
+}
+main div p{
+    font-size: 20px;
+    padding-top: 10px;
+    padding-right: 90px;
+}
+.shopping-bag-section button{
+    display: flex;
+    align-items: end;
+    padding: 10px 30px ;
+    gap:20px;
+    background-color: #1e1e21;
+    border-radius: 8px;
+    margin-top: 50px;
+}
+.back{
+    background-color: #1e1e21;
+}
+span{
+    font-size: 18px;
+    padding-top: 8px;
+}
+.bottomimg{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+    margin-top: 70px;
+    margin-bottom: 100px;
+}
+.section-specs{  
+    padding: 10px;
+}
+.specslogo{
+    padding: 40px 550px;
+    scale: 1;
+}
+.specs-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:100px 300px;
+}
+.specs-list img{
+    scale: 1;
+}
+.specs-list-items div{
+    margin-bottom: 60px;
+    font-size: 18px;
+}
+.imgspecs{
+    padding-left: 40px;
+}
+.specsimglogo{
+    height: 450px;
+    width: 450px;
+}
+.section-case{
+    padding: 10px;
+}
+.case-logo{
+    padding: 40px 550px;
+    scale: 1;
+}
+.case-list{
+    display: flex;
+    justify-content: center;
+    padding: 0 400px;
+}
+.case-list img{
+    scale: 0.8;
+}
+.case-list-p{
+    padding-top: 130px;
+    font-size: 18px;
+    background-color: transparent;
+}
+.case-list-button{
+    display: flex;
+    gap: 10px;
+    background-color: #1e1e21;
+    align-items: center;
+    padding: 5px 10px;
+    margin-top: 20px;
+    border-radius: 6px;
+}  
+.case-list-button img,.case-list-button p{
+    background-color: transparent;
+}  
+.buy-product {
+    background: #181a1b;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 70px;
+    padding: 40px 0;
+}
+  
+  .buy-product div,
+  .buy-product p,
+  .buy-product h3,
+  .buy-product img {
+    background-color: transparent;
+  }
+  
+  .buy-product div {
+    width: 25%;
+  }
+  
+  .buy-product div h3 {
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+  
+  .buy-product div p {
+    color: #bdc0c2;
+    font-size: 14px;
+    margin-bottom: 15px;
+  }
+  
+  .buy-product div div {
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    background: #000000;
+    border-radius: 8px;
+    padding: 10px 20px;
+  }
+  
+  .buy-product div div img {
+    scale: 0.8;
+    margin-right: 10px;
+  }
+  
+  .buy-product div div p {
+    margin-bottom: 0;
+    font-size: 12px;
+    color: white;
+  }
+  .product {
+    display: flex;
+    flex-direction: column;
+    margin: 0 150px;
+  }
+  
+  .product-logo {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .product-logo {
+    scale: 0.3;
+  }
+  
+  .product-items {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    padding-left: 50px;
+  }
+  
+  .product-card {
+    position: relative;
+    width: 130px;
+    height: 130px;
+    background: #181a1b;
+    border-radius: 8px;
+  }
+  
+  .product-img {
+    width: 75px;
+    height: 100px;
+    position: absolute;
+    z-index: 100;
+    top: -40px;
+    left: 28px;
+  }
+  
+  .product-img,
+  .product-card p,
+  .product-card span,
+  .product-card img,
+  .product-card div {
+    background-color: transparent;
+  }
+  
+  .product-info {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding: 10px 15px;
+  }
+  
+  .product-info p {
+    font-size: 12px;
+  }
+  
+  .product-info p span {
+    color: #bdc0c2;
+  }
+  
+  .product-info div {
+    background: #0a0a0b;
+    border-radius: 8px;
+    padding: 2px 6px;
+  }
+  
+  .product-info div img {
+    width: 13px;
+    height: 13px;
+  }
+  
+  /* designing the footer section */
+  footer{
+    margin: 100px 0;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    position: relative;
+  }
+  
+  .footer-logo{
+    scale: 0.8;
+  }
+  
+  ul li a{
+    font-size: 12px;
+    color: #BDC0C2;
+  }
+  
+  ul li:first-child a{
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+  }
+  
+  ul li:first-child{
+    margin-bottom: 10px;
+  }
+  
+  .footer-subscription{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  
+  .footer-subscription div:first-child{
+    background: #181A1B;
+  border-radius: 8px;
+  padding: 5px 10px;
+  display: flex;
+  }
+  
+  .footer-subscription div:first-child input{
+    border: none;
+    background-color: transparent;
+  }
+  
+  .subscribe-button{
+    background: #0A0A0B;
+    border-radius: 8px;
+    padding: 10px 20px;
+    border: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .subscribe-button img{
+    scale: 0.8;
+  }
+  
+  .subscribe-button p{
+    font-size: 12px;
+  }
+  
+  .footer-subscription div:last-child img{
+    margin-right: 10px;
+    scale: 0.8;
+  }
+  
+  .arrow-up{
+    position: absolute;
+    right: -160px;
+    scale: 0.8;
+  }

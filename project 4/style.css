@@ -9,7 +9,7 @@ body{
     background-attachment: fixed;
 }
 .nav_bar{
-    width: 100hw;
+    width: 100%;
     padding: 26px 85px;
     height: 94px;
     background-color:black;
@@ -26,7 +26,7 @@ nav ul{
     gap: 50px;
     align-items: center;
     padding-left: 20px;
-    padding-right: 700px;
+    padding-right: 70px;
     list-style: none;
 }
 nav ul li{
